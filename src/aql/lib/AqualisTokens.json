@@ -1,0 +1,24 @@
+{
+  "usdt": {
+    "key": "usdt",
+    "logoURI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDm2J59rx1X0YvvLvB0VUsskYX77ZoL2y1iMQhCufVFw&s",
+    "name": "Aqualis USDT",
+    "symbol": "AUSDT",
+    "address": "0x78B773b452932829b3B757Af9e6283c1CBC5b874"
+  },
+  "usdc": {
+    "key": "usdc",
+    "logoURI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvFtukVB8wqEwGG1lUDISQt--FRiH2pzTfU4uML_HMQA&s",
+    "name": "Aqualis USDC",
+    "symbol": "AUSDC",
+    "address": "0x7a3A51afB43483A3d50674d4FA29c0FB1A16341C"
+  },
+  "dai": {
+    "key": "dai",
+    "logoURI": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKHOyGL3hVoZ9_gFus_LdSFjbgw0TlrFNM36rVbuQRPA&s",
+    "name": "Aqualis DAI",
+    "symbol": "ADAI",
+    "address": "0x4698418b60d9D8e0da2Ee8fE7A27af01105380eb"
+  }
+}
+  

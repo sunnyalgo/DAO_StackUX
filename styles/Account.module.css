@@ -1,0 +1,7 @@
+.modal {
+  @apply shadow absolute border border-gray-main p-6 rounded-xl bg-white;
+  @apply flex flex-col items-center;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}

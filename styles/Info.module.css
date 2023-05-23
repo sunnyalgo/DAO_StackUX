@@ -1,0 +1,20 @@
+.info {
+  max-width: 1000px;
+  @apply w-full flex flex-col justify-center my-8 mx-auto space-y-4;
+}
+.info__chart {
+  max-width: 490px;
+  width: 100%;
+  @apply bg-white p-4 shadow rounded-xl border border-gray-main;
+  @apply flex flex-col items-center space-y-2;
+}
+.splash {
+  background: linear-gradient(
+    86.13deg,
+    #f2994a 0%,
+    rgba(246, 176, 75, 0.920168) 39.06%,
+    rgba(250, 205, 77, 0.821771) 58%,
+    rgba(255, 237, 79, 0.71) 102.24%
+  );
+  @apply flex items-center justify-between rounded-xl py-2 px-8;
+}

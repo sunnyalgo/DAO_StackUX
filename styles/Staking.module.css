@@ -1,0 +1,17 @@
+.staking {
+  max-width: 1000px;
+  @apply w-full flex flex-col justify-center my-8 mx-auto space-y-4;
+}
+.staking__button {
+  @apply w-full py-2 bg-blue-main rounded-lg text-white text-sm font-semibold;
+}
+.staking__withdrawBtn {
+  @apply w-full py-2 rounded-lg text-blue-main text-sm font-semibold border border-blue-main;
+}
+.input {
+  @apply w-full py-2 px-4 bg-gray-light rounded-lg;
+  outline: none !important;
+}
+.divider {
+  @apply w-full border-b border-gray-main;
+}

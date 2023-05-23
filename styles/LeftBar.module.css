@@ -1,0 +1,6 @@
+.leftbar__link {
+  @apply text-2xl font-medium border-b-4 border-transparent hover:border-blue-main;
+}
+.leftbar__link__active {
+  @apply text-2xl font-medium border-b-4 border-transparent border-blue-main;
+}

@@ -1,0 +1,17 @@
+{
+  "short_name": "Aqualis MVP",
+  "name": "Aqualis MVP",
+  "description": "A Revolution in DeFi Capital Efficiency",
+  "iconPath": "aql.svg",
+  "icons": [
+    {
+      "src": "favicon32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

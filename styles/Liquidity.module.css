@@ -1,0 +1,4 @@
+.input {
+  @apply p-2 text-lg;
+  outline: none !important;
+}

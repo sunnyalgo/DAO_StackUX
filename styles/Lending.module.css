@@ -1,0 +1,31 @@
+.lending {
+  max-width: 1000px;
+  width: 100%;
+  @apply flex flex-col space-y-4 justify-center mx-auto my-8;
+}
+.lending__balance {
+  @apply bg-white p-10 shadow rounded-xl border border-gray-main w-full;
+  @apply flex justify-around;
+}
+.lending__title {
+  @apply text-2xl font-semibold;
+}
+.lending__box {
+  @apply shadow rounded-xl bg-gray-light border-2 border-gray-main p-2 w-full flex justify-center;
+  @apply text-2xl font-semibold;
+}
+.assets {
+  max-width: 490px;
+  width: 100%;
+  @apply bg-white px-2 py-4 shadow rounded-xl border border-gray-main;
+  @apply flex flex-col items-center;
+}
+.assets__title {
+  @apply text-2xl font-semibold;
+  @apply border-b-4 border-blue-main;
+}
+.assets__cell {
+  width: 33%;
+  @apply flex justify-center items-center font-semibold;
+  @apply text-lg;
+}

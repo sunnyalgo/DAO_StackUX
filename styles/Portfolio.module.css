@@ -1,0 +1,16 @@
+.portfolio {
+  max-width: 1000px;
+  @apply w-full flex flex-col justify-center my-8 mx-auto space-y-4;
+}
+.portfolio__assets {
+  @apply w-full shadow border-2 border-gray-main p-6 flex justify-center space-x-16 items-center rounded-xl;
+}
+.portfolio__title {
+  @apply text-3xl font-bold ml-4;
+}
+.staked__assets {
+  max-width: 490px;
+  width: 100%;
+  @apply bg-white py-4 px-6 shadow rounded-xl border border-gray-main;
+  @apply flex flex-col items-center;
+}

@@ -1,0 +1,4 @@
+.inputAmount__input {
+  @apply flex-1 py-1 ml-4 bg-transparent;
+  outline: none !important;
+}
