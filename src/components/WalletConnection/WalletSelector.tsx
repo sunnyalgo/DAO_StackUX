@@ -122,8 +122,6 @@ export const WalletSelector = () => {
     // TODO: add other errors
   }
 
-  console.log("here");
-
   // Get UNS Tlds. Grabbing this fron an endpoint since Unstoppable adds new TLDs frequently, so this wills tay updated
   useEffect(() => {
     const unsTlds = async () => {

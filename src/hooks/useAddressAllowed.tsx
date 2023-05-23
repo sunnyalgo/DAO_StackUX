@@ -1,4 +1,4 @@
-import { useState , useEffect} from 'react';
+import { useState } from 'react';
 
 import { usePolling } from './usePolling';
 
@@ -17,11 +17,7 @@ export const useAddressAllowed = (address: string): AddressAllowedResult => {
   const getIsAddressAllowed = async () => {
     if (screeningUrl && address) {
       try {
-        const response = await fetch(screeningUrl + queryParams, {
-          headers: {
-            'Access-Control-Allow-Origin': 'http://localhost:3000', // Replace with the appropriate origin
-          },
-        });
+        const response = await fetch(screeningUrl + queryParams);
         if (response.ok) {
           const data: { addressAllowed: boolean } = await response.json();
           setIsAllowed(data.addressAllowed);
@@ -31,10 +27,6 @@ export const useAddressAllowed = (address: string): AddressAllowedResult => {
       setIsAllowed(true);
     }
   };
-
-  useEffect(() => {
-    getIsAddressAllowed();
-  }, [address]);
 
   usePolling(getIsAddressAllowed, TWO_MINUTES, false, [address]);
 
